@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+	background-color: #101022;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,9 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 	margin-top: 10em;
-	border: 1px solid #eee;
+	border: 0.5px inset #121226;
 	background-color: #121226;
 	padding-bottom: 1em;
+	/**background-image: url(../../assets/images/ihs.jpg);**/
 }
 
 #about img {
@@ -89,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h2 {
-		color: #646464;
+		color: mintcream;
 		font-size: 3.8em;
 		padding-bottom: 1em;
 }
@@ -111,11 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
-		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
-		border-radius: 50px;
-		background: white;
+	color: #cc4b37;
+	text-transform: uppercase;
+	border: 2px solid rgba(255, 103, 68, 0.91);
+	border-radius: 50px;
+	background: #121226;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*** Experience ***/
-#experience {
+	#experience {
 	background-color : darkblue;
 	
 	padding: 6em 4em 5.6em;
